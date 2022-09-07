@@ -1,0 +1,31 @@
+// Mixins acá
+@bgcolor : @btn-bg-color;
+@lettercolor: #030303;
+.btn2(@bgcolor;@lettercolor){
+background-color:@bgcolor;
+color: rgb(255, 255, 255);
+border: 2px solid #4CAF50;
+border-radius: 10px;
+}
+
+
+.btn2:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+@phone:500px;
+@media only screen and (max-width:@phone) {
+    body {
+        background-color: rgb(193, 143, 42);
+    }
+    header, img{
+        justify-content: space-around;
+    }
+    .menu-barranav{
+        justify-content: space-evenly;
+        font-size: 12px;
+        width: 90%;
+    }
+    .
+}

@@ -1,0 +1,25 @@
+.btnClose{
+    background-color: #fa300c;
+    color: antiquewhite;
+    border-radius: 25%;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    left: 100px;
+}
+.cardStyle{
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    margin: 2rem auto;
+    background: #05d588be;
+    border: 1px solid tomato;
+        padding: 1rem;
+}
+.cardInterior{
+    flex-direction: row;
+}
+p.spacing {
+    word-spacing: 10px;
+}
